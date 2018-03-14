@@ -1,0 +1,241 @@
+.wudidiv{
+    width: 100%;
+    height:1200px;
+    position: relative;
+}
+.hanxiudiv{
+    height: 48px;
+    position: absolute;
+    top:132px;
+    left: 590px;
+}
+.hanxiudiv ul{
+    height: 48px;
+}
+.hanxiudiv ul li{
+    width: 80px;
+    height: 45px;
+    float: left;
+}
+.hanxiudiv ul li a{
+    width: 45px;
+    height:45px;
+    display: inline-block;
+}
+.hanxiudiv ul li:first-child a{
+    background:url("../img/jobs_z_3e6302d.png")no-repeat 0 0;
+}
+.hanxiudiv ul li:nth-child(2) a{
+    background:url("../img/jobs_z_3e6302d.png") no-repeat -80px 0 ;
+}
+.hanxiudiv ul li:nth-child(3) a{
+    background: url("../img/jobs_z_3e6302d.png") no-repeat -159px 0 ;
+}
+.hanxiudiv ul li:nth-child(4) a {
+    background:url("../img/jobs_z_3e6302d.png") no-repeat -240px 0 ;
+}
+.hanxiudiv ul li:nth-child(5) a{
+    background:url("../img/jobs_z_3e6302d.png") no-repeat -319px 0 ;
+}
+.hanxiudiv ul li:nth-child(6) a{
+    background:url("../img/jobs_z_3e6302d.png") no-repeat -401px 0 ;
+}
+.hanxiudiv ul li:nth-child(7) a{
+    background:url("../img/jobs_z_3e6302d.png") no-repeat -479px 0 ;
+}
+.hanxiudiv ul li:nth-child(8) a{
+    background:url("../img/jobs_z_3e6302d.png") no-repeat -559px 0 ;
+}
+.hanxiudiv ul li:nth-child(9) a {
+    background:url("../img/jobs_z_3e6302d.png") no-repeat -639px 0 ;
+}
+.hanxiudiv ul li span {
+    background:url("../img/jobs_z_3e6302d.png") no-repeat -49px 0 ;
+    display: inline-block;
+    height:45px;
+    width: 30px;
+    margin-left: 5px;
+}
+
+/*人物背景图*/
+.wudidiv .pjiashi{
+    /*甲士*/
+    background: url("../img/job_bg_js_female_6472638.jpg")no-repeat center 0;
+    width: 100%;
+    height:1176px;
+    top:72px;
+
+}
+.wudidiv .psheshou{
+    /*射手*/
+    background: url("../img/job_bg_ss_female_73a4649.jpg")no-repeat center 0;
+    width: 100%;
+    height:1176px;
+    top:72px;
+    display: none;
+}
+.wudidiv .pfangshi{
+    /*方士*/
+    background: url("../img/job_bg_fs_female_2ca1b90.jpg")no-repeat center 0;
+    width: 100%;
+    height:1176px;
+    top:72px;
+    display: none;
+}
+.wudidiv .pyishi{
+    /*医师*/
+    background: url("../img/job_bg_ys_female_33b6686.jpg")no-repeat center 0;
+    width: 100%;
+    height:1176px;
+    top:72px;
+    display: none;
+}
+.wudidiv .pmeizhe{
+    /*魅者*/
+    background: url("../img/job_bg_mz_female_285edf6.jpg")no-repeat center 0;
+    width: 100%;
+    height:1176px;
+    top:72px;
+    display: none;
+}
+.wudidiv .pyiren{
+    /*异人*/
+    background: url("../img/job_bg_yr_female_64da1b4.jpg")no-repeat center 0;
+    width: 100%;
+    height:1176px;
+    top:72px;
+    display: none;
+}
+.panchi{
+position: absolute;
+    left: 695px;
+    top:210px;
+}
+.jueji{
+    position: absolute;
+    left: 662px;
+    top: 346px;
+    font-size: 16px;
+}
+.jueji p{
+    width: 200px;
+    margin-top: 40px;
+    text-indent:2em;
+    line-height:22px;
+    font-size: 14px;
+
+}
+.leftjueji{
+    margin-right: 86px;
+
+}
+.leftjueji,.rightjueji{
+    width: 165px;
+    display: inline-block;
+}
+.leftjueji div{
+    background: url("../img/jobs_z_3e6302d.png")no-repeat 0 -93px;
+    float: right;
+    width: 104px;
+    height: 37px;
+    line-height: 37px;
+    color: #f5f5f5;
+    font-size: 18px;
+    text-align: center;
+    padding-right: 20px;
+}
+.leftjueji img{
+    position: absolute;
+    top:2px;
+}
+.rightjueji div{
+    background: url("../img/jobs_z_3e6302d.png")no-repeat 0 -93px;
+    float: right;
+    width: 104px;
+    height: 37px;
+    line-height: 37px;
+    color: #f5f5f5;
+    font-size: 18px;
+    text-align: center;
+    padding-right: 20px;
+}
+.rightjueji img{
+    position: absolute;
+    top:2px;
+}
+
+.jianjie{
+    position: absolute;
+    left: 660px;
+    top:606px;
+    width: 472px;
+    text-indent:2em;
+    font-size: 16px;
+    line-height: 22px;
+}
+.menpai{
+    position: absolute;
+    top: 850px;
+    left:488px;
+    width: 656px;
+    height:110px;
+    line-height: 22px;
+    color: #899bbb;
+}
+.dibu{
+    clear: both;
+    height: 140px;
+    overflow: hidden;
+    color: #000;
+    z-index: 10;
+    width: 100%;
+    position: absolute;
+    top:1070px;
+    left: 60px;
+
+}
+.dibu .left{
+    position: absolute;
+    left:460px;
+    bottom: 100px;
+}
+.dibu li{
+    display: inline-block;
+}
+.dibu .right{
+    position: absolute;
+    left: 860px;
+    bottom: 100px;
+}
+.dibu .right .nanshou {
+    display: inline-block;
+    width: 136px;
+    height:22px;
+    line-height: 22px;
+    background: #610000;
+    position: absolute;
+    right:12px;
+    bottom: 0px;
+    color: #fffdef;
+    font-size: 12px;
+}
+.xingbie{
+    position: absolute;
+    width: 46px;
+    height: 48px;
+    left: 1096px;
+    top: 196px;
+
+}
+.xingbie a{
+    background: url("../img/switch_btn_4ad35ca.png")no-repeat -47px 0;
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+}
+.pcengji{
+    display: none;
+}
+

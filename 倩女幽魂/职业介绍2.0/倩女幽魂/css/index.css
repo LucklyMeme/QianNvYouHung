@@ -1,0 +1,109 @@
+/*----------------------------------------------------------------------头部*/
+#header{
+    height: 55px;
+    background-color: #fbfbfb;
+}
+/*logo部分*/
+#header .logo{
+    height: 45px;
+    padding-top: 10px;
+    margin-left: 70px;
+    width: 850px;
+    background:url("../images/logo-1.png") no-repeat center left;
+}
+/*右侧导航*/
+#header .nav ul {
+    height: 55px;
+    line-height: 55px;
+    font-size:10px;
+    color: #3f3f3f;
+}
+#header .nav li{
+    float: left;
+    cursor:pointer;
+
+}
+#header .nav li+li{
+    margin-left: 29px;
+}
+/*----------------------------------------------------------------------banner部分*/
+#banner{
+    position: relative;
+}
+#banner .logo {
+    height: 116px;
+    width: 116px;
+    position: absolute;
+    top: 10px;
+    left: 354px;
+}
+
+#banner .logo span {
+    display: inline-block;
+    width: 167px;
+    height: 53px;
+    background: url("../images/xiazai.png") no-repeat -381px -281px;
+    position: absolute;
+    top: 70px;
+    left: 145px;
+}
+
+/*导航部分*/
+#banner .daohang {
+    width: 1920px;
+    height: 68px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    z-index: 9;
+}
+
+#banner .nav ul {
+    margin-left: 227px;
+}
+
+#banner .nav > ul > li {
+    height: 43px;
+    float: left;
+    padding-top: 25px;
+    position: relative;
+    cursor: pointer;
+}
+
+#banner .nav > ul > li > a {
+    color: #fbfbfb;
+    display: block;
+    /*height: 18px;*/
+    position: relative;
+    font-size: 18px;
+    padding: 0 18px 0 36px;
+    background: url("../images/nav-a.png") no-repeat 18px center;
+}
+#banner .nav > ul > li:hover .navA{
+    color: #e9c36f;
+    background: url("../images/nav-b.png") no-repeat 18px center;
+}
+
+
+
+#banner .nav ol a {
+    display: block;
+    color: #fbfbfb;
+    display: block;
+    font-size: 15px;
+    line-height: 35px;
+}
+
+#banner .nav ol {
+    display: none;
+    position: absolute;
+    top: 68px;
+    left: 12px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#banner .nav ol > li {
+    width: 100px;
+    height: 35px;
+    text-align: center;
+}

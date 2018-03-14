@@ -1,0 +1,280 @@
+/*----------------------------------------------------------------------ͷ��*/
+#header{
+    height: 55px;
+    background-color: #fbfbfb;
+}
+/*logo����*/
+#header .logo{
+    height: 45px;
+    padding-top: 10px;
+    margin-left: 70px;
+    width: 850px;
+    background:url("../images/logo-1.png") no-repeat center left;
+    z-index: 9;
+}
+/*�Ҳർ��*/
+#header .nav ul {
+    height: 52px;
+    line-height: 52px;
+    font-size:10px;
+    color: #3f3f3f;
+}
+#header .nav li{
+    float: left;
+    cursor:pointer;
+}
+#header .nav li+li{
+    margin-left: 29px;
+}
+#header .nav li:hover{
+    border-bottom: 3px solid #bc2e2e;
+}
+/*----------------------------------------------------------------------banner����*/
+#banner{
+    height: 1000px;
+    position: relative;
+    background:url("../images/yxbj1.jpg");
+}
+/*logo部分*/
+#banner .logo {
+    height: 116px;
+    width: 116px;
+    position: absolute;
+    top: 10px;
+    left: 354px;
+}
+
+#banner .logo span {
+    display: inline-block;
+    width: 167px;
+    height: 53px;
+    background: url("../images/xiazai.png") no-repeat -381px -281px;
+    position: absolute;
+}
+
+/*导航部分*/
+#banner .daohang {
+    width: 1920px;
+    height: 68px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+}
+
+#banner .nav ul {
+    margin-left: 227px;
+}
+
+#banner .nav > ul > li {
+    height: 43px;
+    float: left;
+    padding-top: 25px;
+    position: relative;
+    cursor: pointer;
+}
+
+#banner .nav > ul > li > a {
+    color: #fbfbfb;
+    display: block;
+    /*height: 18px;*/
+    position: relative;
+    font-size: 18px;
+    padding: 0 18px 0 36px;
+    background: url("../images/nav-a.png") no-repeat 18px center;
+}
+#banner .nav > ul > li:hover .navA{
+    color: #e9c36f;
+    background: url("../images/nav-b.png") no-repeat 18px center;
+}
+
+
+
+#banner .nav ol a {
+    display: block;
+    color: #fbfbfb;
+    display: block;
+    font-size: 15px;
+    line-height: 35px;
+}
+
+#banner .nav ol {
+    display: none;
+    position: absolute;
+    top: 68px;
+    left: 12px;
+    z-index: 9;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#banner .nav ol > li {
+    width: 100px;
+    height: 35px;
+    text-align: center;
+}
+
+
+#main{
+    background:url("../images/yxbj1.jpg");
+}
+
+
+
+.carousel {
+    width: 1000px;
+    height: 685px;
+    position: relative;
+    top: 75px;
+    left: 475px;
+}
+
+.carousel ul.imageslist {
+    top: 0;
+    left: 0;
+    list-style: none;
+}
+
+.carousel ul.imageslist li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*���ڣ����е�li��������һ��ģ������е�li����*/
+    display: none;
+}
+.carousel ul.imageslist li.first{
+    display: block;
+}
+
+.beijingbox{
+    position: absolute;
+}
+.wenzibox{
+    position: absolute;
+}
+
+.carousel .buttons a {
+    display: block;
+    width: 31px;
+    height: 61px;
+    background: url(../images/2.png) no-repeat;
+    cursor: pointer;
+}
+
+.carousel .buttons .leftBtn {
+    position: absolute;
+    top: 310px;
+    left: -45px;
+}
+.carousel .buttons .leftBtn:hover{
+    background-position: -31px 0;
+}
+.carousel .buttons .rightBtn {
+    position: absolute;
+    top: 310px;
+    right: -40px;
+    background-position: -62px 0;
+}
+.carousel .buttons .rightBtn:hover{
+    background-position: -93px 0;
+}
+
+.carousel .bg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    opacity: 0.6;
+    _filter: alpha(opacity=60);
+}
+
+.carousel .num {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    height: 20px;
+}
+
+.carousel .num span {
+    float: left;
+    margin-right: 6px;
+    width: 12px;
+    height: 12px;
+    background: white;
+    background: url(images/icons.png) no-repeat 0 -12px;
+}
+
+.carousel .num span.cur {
+    background-position: 0 0;
+}
+
+
+
+#footer .container .content .wz img{
+    position:absolute;
+   left:450px;
+    top:940px;
+    cursor:pointer;
+}
+#footer .container .content .wy img{
+    position:absolute;
+    left:570px;
+    top:940px;
+    cursor:pointer;
+}
+#footer .container .content .lh img{
+    position:absolute;
+    top:940px;
+    left:720px;
+    cursor:pointer;
+}
+#footer .container .content .w img{
+    position:absolute;
+    top:940px;
+    left:773px;
+    cursor:pointer;
+}
+#footer .container .content .w2 img {
+    position: absolute;
+    top: 940px;
+    left: 820px;
+    cursor: pointer;
+}
+#footer .container .content .jj .top{
+    position:absolute;
+    top:935px;
+    left:877px;
+}
+#footer .container .content .jj .top a{
+    font-size:12px;
+    font-family: "微软雅黑";
+    cursor:pointer;
+    color:#000000;
+
+}
+#footer .container .content .jj .top a:hover{
+    text-decoration: underline;
+    color:black;
+}
+#footer .container .content .jj .bottom .hz{
+    position:absolute;
+    left:876px;
+    top:960px;
+    font-size:12px;
+}
+#footer .container .content .jj .bottom .click a{
+    position:absolute;
+    top:960px;
+    left:1160px;
+    font-size:12px;
+    color:#fff;
+    background:#610000;
+    width:144px;
+    height:28px;
+    line-height:28px;
+    text-align:center;
+}
+#footer .container .content .jj .bottom .click a:hover{
+    text-decoration: underline;
+}
